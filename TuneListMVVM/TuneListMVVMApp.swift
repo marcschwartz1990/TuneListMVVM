@@ -11,7 +11,10 @@ import SwiftUI
 struct TuneListMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            let viewContext = CoreDataManager.shared.persistentStoreContainer.viewContext
+            MainMenuView()
+                .environment(\.managedObjectContext, viewContext)
         }
     }
 }

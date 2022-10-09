@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		AF162F8B28F134E600230B6C /* TuneListMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162F8A28F134E600230B6C /* TuneListMVVMApp.swift */; };
-		AF162F8D28F134E600230B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162F8C28F134E600230B6C /* ContentView.swift */; };
+		AF162F8D28F134E600230B6C /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162F8C28F134E600230B6C /* MainMenuView.swift */; };
 		AF162F8F28F134E700230B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF162F8E28F134E700230B6C /* Assets.xcassets */; };
 		AF162F9228F134E700230B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF162F9128F134E700230B6C /* Preview Assets.xcassets */; };
+		AF162F9A28F1365B00230B6C /* TuneListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF162F9828F1365B00230B6C /* TuneListModel.xcdatamodeld */; };
+		AF162F9D28F1372F00230B6C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162F9C28F1372F00230B6C /* CoreDataManager.swift */; };
+		AF162FA028F13A0500230B6C /* QuickReferenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162F9F28F13A0500230B6C /* QuickReferenceViewModel.swift */; };
+		AF162FA428F13A7000230B6C /* QuickReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FA328F13A7000230B6C /* QuickReferenceView.swift */; };
+		AF162FA628F13F2B00230B6C /* AddTuneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FA528F13F2B00230B6C /* AddTuneViewModel.swift */; };
+		AF162FA828F13FB000230B6C /* AddTuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FA728F13FB000230B6C /* AddTuneView.swift */; };
+		AF162FAB28F144E200230B6C /* Tune+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FAA28F144E200230B6C /* Tune+Extensions.swift */; };
+		AF162FAE28F1452800230B6C /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FAD28F1452800230B6C /* BaseModel.swift */; };
+		AF162FBD28F334BA00230B6C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FBC28F334BA00230B6C /* Keys.swift */; };
+		AF162FBF28F336E400230B6C /* TuneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF162FBE28F336E400230B6C /* TuneDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF162F8728F134E600230B6C /* TuneListMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneListMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF162F8A28F134E600230B6C /* TuneListMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneListMVVMApp.swift; sourceTree = "<group>"; };
-		AF162F8C28F134E600230B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF162F8C28F134E600230B6C /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		AF162F8E28F134E700230B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF162F9128F134E700230B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF162F9928F1365B00230B6C /* TuneListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuneListModel.xcdatamodel; sourceTree = "<group>"; };
+		AF162F9C28F1372F00230B6C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AF162F9F28F13A0500230B6C /* QuickReferenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferenceViewModel.swift; sourceTree = "<group>"; };
+		AF162FA328F13A7000230B6C /* QuickReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferenceView.swift; sourceTree = "<group>"; };
+		AF162FA528F13F2B00230B6C /* AddTuneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTuneViewModel.swift; sourceTree = "<group>"; };
+		AF162FA728F13FB000230B6C /* AddTuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTuneView.swift; sourceTree = "<group>"; };
+		AF162FAA28F144E200230B6C /* Tune+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tune+Extensions.swift"; sourceTree = "<group>"; };
+		AF162FAD28F1452800230B6C /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		AF162FBC28F334BA00230B6C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		AF162FBE28F336E400230B6C /* TuneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				AF162F8A28F134E600230B6C /* TuneListMVVMApp.swift */,
-				AF162F8C28F134E600230B6C /* ContentView.swift */,
+				AF162FAC28F1450D00230B6C /* Models */,
+				AF162FA928F144C300230B6C /* Extensions */,
+				AF162F9E28F139E500230B6C /* View Models */,
+				AF162F9B28F1371500230B6C /* Managers */,
+				AF162FAF28F1546100230B6C /* Views */,
+				AF162F9828F1365B00230B6C /* TuneListModel.xcdatamodeld */,
 				AF162F8E28F134E700230B6C /* Assets.xcassets */,
 				AF162F9028F134E700230B6C /* Preview Content */,
 			);
@@ -65,6 +90,51 @@
 				AF162F9128F134E700230B6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF162F9B28F1371500230B6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AF162F9C28F1372F00230B6C /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AF162F9E28F139E500230B6C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF162F9F28F13A0500230B6C /* QuickReferenceViewModel.swift */,
+				AF162FA528F13F2B00230B6C /* AddTuneViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		AF162FA928F144C300230B6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF162FAA28F144E200230B6C /* Tune+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF162FAC28F1450D00230B6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF162FAD28F1452800230B6C /* BaseModel.swift */,
+				AF162FBC28F334BA00230B6C /* Keys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF162FAF28F1546100230B6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF162F8C28F134E600230B6C /* MainMenuView.swift */,
+				AF162FA728F13FB000230B6C /* AddTuneView.swift */,
+				AF162FBE28F336E400230B6C /* TuneDetailView.swift */,
+				AF162FA328F13A7000230B6C /* QuickReferenceView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF162F8D28F134E600230B6C /* ContentView.swift in Sources */,
+				AF162FAB28F144E200230B6C /* Tune+Extensions.swift in Sources */,
+				AF162FA428F13A7000230B6C /* QuickReferenceView.swift in Sources */,
+				AF162F9A28F1365B00230B6C /* TuneListModel.xcdatamodeld in Sources */,
+				AF162F8D28F134E600230B6C /* MainMenuView.swift in Sources */,
+				AF162FBD28F334BA00230B6C /* Keys.swift in Sources */,
+				AF162FAE28F1452800230B6C /* BaseModel.swift in Sources */,
+				AF162F9D28F1372F00230B6C /* CoreDataManager.swift in Sources */,
+				AF162FA628F13F2B00230B6C /* AddTuneViewModel.swift in Sources */,
 				AF162F8B28F134E600230B6C /* TuneListMVVMApp.swift in Sources */,
+				AF162FBF28F336E400230B6C /* TuneDetailView.swift in Sources */,
+				AF162FA828F13FB000230B6C /* AddTuneView.swift in Sources */,
+				AF162FA028F13A0500230B6C /* QuickReferenceViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +419,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF162F9828F1365B00230B6C /* TuneListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF162F9928F1365B00230B6C /* TuneListModel.xcdatamodel */,
+			);
+			currentVersion = AF162F9928F1365B00230B6C /* TuneListModel.xcdatamodel */;
+			path = TuneListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF162F7F28F134E600230B6C /* Project object */;
 }
